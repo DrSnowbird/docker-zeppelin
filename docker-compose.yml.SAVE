@@ -7,7 +7,7 @@ zeppelin:
       -Dspark.executor.memory=2g
     MASTER: local[*]
   ports:
-    - 18080:8080
+    - 8080:8080
   volumes:
     - ./data:/usr/zeppelin/data
     - ./notebooks:/usr/zeppelin/notebook

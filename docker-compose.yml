@@ -4,7 +4,7 @@ zeppelin:
     ZEPPELIN_PORT: 8080
     ZEPPELIN_JAVA_OPTS: >-
       -Dspark.driver.memory=1g
-      -Dspark.executor.memory=2g
+      -Dspark.executor.memory=4g
     MASTER: local[*]
   ports:
     - 18080:8080
